@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Note De Cours</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+<div>
+    <div class="pagetitle1">
+        <h1> NOTES DE COURS </h1>
+    <h2> - PROGRAMMATION COTÉ CLIENT - </h2>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3>- PRÉSENTATIONS -</h3>
+
+    <div><ul class="list1">
+        <li><a href="https://grossebanque.com">001-Intro.slides <i class="fa-solid fa-link"></i><i class="fa-brands fa-html5"></i>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li id="target1"><a href="https://petitebanque.com">002-PointsHistorique.slides <i class="fa-solid fa-link"></i><i class="fa-brands fa-html5"></i>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://moyennebanque.com">003-Moyenne Banque
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://banquecentrale.com">004-Banque Centrale
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">006-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br><a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">007-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">008-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">009-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">010-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">011-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">012-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">013-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">014-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">015-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">016-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">017-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+        <li><a href="https://coopbank.com">018-Banque coopérative
+            <a href="http://coopbank.com"><i class="fa-solid fa-link"></i></a>
+            <a href="http://coopbank.com"><i class="fa-brands fa-html5"></i></a>
+            <br> <a href="https://miawmiaw.com"> Sublink</a>
+        </a></li>
+    </ul></div>
+    <br>
+    <div><h3>- EXAMENS -</h3></div>
+
+    <div><ol class="table1">
+        <table style="font-size: larger">
+            <tr>
+                <td><a href="https://">Exam-Pratique-1/</a></td>
+                <td>12 Novembre/11:59pm/</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td><a href="https://">Exam-Pratique-2/</a></td>
+                <td>12 Decembre/11:59pm/</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td><a href="https://">Exam-Pratique-3/</a></td>
+                <td>12 Janvier/11:59pm/</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td><a href="https://">Exam-Pratique-4/</a></td>
+                <td>12 Fevrier/11:59pm/</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td><a href="https://">Exam-Pratique-5/</a></td>
+                <td>12 Mars/11:59pm/</td>
+                <td>20%</td>
+            </tr>
+        </table>
+    </ol></div>
+    <br>
+    <div><h3>- GIT LIENS -</h3></div>
+    <div><ul id="target2">
+        <li><a href="https://petitebanque.com">Gitlink1</a></li>
+    </ul></div>
+    <br>
+    <br>
+    <div class="colophon1">
+        <h3 class="head3">Colophon</h3>
+    <p id="p1">-Sources: https://gitlab.com/didier-ahuntsic/cours-420-298-ah</p>
+    <p id="p2">-Dernière Mise-à-Jour: Mon Oct 16 22:51:54 UTC 2023</p>
+    <p id="p3">-Identificant Git: #37a1a177</p>
+    </div>
+</div>
+
+</body>
+</html>
