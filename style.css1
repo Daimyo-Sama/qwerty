@@ -1,0 +1,68 @@
+body{
+    box-shadow: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 20px solid darkslategrey;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    box-shadow: darkslateblue;
+    margin: auto;
+    max-width: 1200px;
+    max-height: none;
+    background-color: lightpink;
+    font-family:"Mongolian Baiti"
+}
+h1{
+    font-size: xxx-large;
+}
+h2{
+    font-style: italic;
+    font-size:x-large;
+    font-palette: light;
+}
+.list1{
+    font-size: larger;
+   column-count: 3;
+    column-gap: 50px;
+    max-width: 1000px;
+
+}
+#target2{
+    font-size:x-large;
+}
+h3{
+    font-size: x-large;
+}
+.pagetitle1{
+    text-align: center;
+}
+.table1{
+    max-width: fit-content;
+    font-size: larger;
+}
+.colophon1{
+    max-width: fit-content;
+    padding: 10px 10px;
+    padding-top: 0px;
+    font-family: "Yu Gothic UI Semibold";
+    color: darkred;
+    border: inset 10px;
+    border-color: darkslategrey;
+    font-size: large;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.head3{
+    color: darkred;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: "Franklin Gothic Medium";
+    font-size: xx-large;
+    text-align: center;
+}
+#p2{
+    margin-left: 150px;
+}
+#p3{
+    margin-left: 450px;
+}
