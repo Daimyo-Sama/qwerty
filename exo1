@@ -1,0 +1,215 @@
+function exo1a(){
+    document.getElementById("main-title").innerText = "Les Bases De La Programmation";
+}
+exo1a();
+//
+function exo1b(){
+    userInput1 = document.getElementById("input-1").value;
+    userInput2 = document.getElementById("input-2").value;
+    resultBox1 = document.getElementById("result-box-1").innerText;
+    if (userInput1 === userInput2){
+        document.getElementById("result-box-1").innerText = "input1 = input2"}
+    else{
+        document.getElementById("result-box-1").innerText = "input1 != input2"
+    }
+
+}
+exo1b();
+//
+function exo1c(){
+    let button2 = document.getElementById("button-2");
+    let userInputValue = document.getElementById("input-2").value;
+    let resultBoxText = document.getElementById("result-box-2").innerText;
+    if (userInputValue.charAt(0).toLowerCase()=== "a"){
+        document.getElementById("result-box-2").innerText = "input-2 commence par la lettre ‘a’"}
+    else {
+        document.getElementById("result-box-2").innerText = "input-2 ne commence pas par la lettre ‘a’"}
+}
+exo1c();
+//
+function exo1d() {
+    let userInputValue1 = document.getElementById("input-2").value;
+    let userInputValue2 = document.getElementById("input-3").value;
+    let resultBoxText = document.getElementById("result-box-3");
+    if (userInputValue1.length < userInputValue2.length){
+        document.getElementById("result-box-3").innerText = "input-2 < input-3"}
+    else{
+        document.getElementById("result-box-3").innerText = "input-2 >= input-3";
+    }
+}
+exo1d();
+//
+function exo1e(){
+    let userInput1 = document.getElementById("input-1").value;
+    let userInput2 = document.getElementById("input-2").value;
+    let userInput3 = document.getElementById("input-3").value;
+    let userInput4 = document.getElementById("input-4").value;
+    let resultBoxValue = document.getElementById("result-box-4").innerText;
+    if (userInput1===userInput2 && userInput2===userInput3 && userInput3===userInput4){
+        document.getElementById("result-box-4").innerText = "Tout est pareil"}
+    else{
+        document.getElementById("result-box-4").innerText = "Rien n’est pareil"
+    }
+
+}
+exo1e();
+//
+function exo1f(){
+    let x = parseFloat(document.getElementById("input-1").value);
+    let resultBoxValue = document.getElementById("result-box-1");
+    if (!isNaN(x)) {
+        let y = (x - 32) * 1.8;
+        resultBoxValue.innerText = y;
+    }else{
+        resultBoxValue.innerText = "Impossible de calculer";
+    }
+
+}
+exo1f();
+//
+function exo1g(){
+    let x = parseFloat(document.getElementById("input-2").value);
+    let resultBoxValue = document.getElementById("result-box-2");
+    if (!isNaN(x)){
+        let y = Math.abs(x);
+        resultBoxValue.innerText = y;
+    }else{
+        resultBoxValue.innerText = "Impossible de calculer";
+    }
+}
+exo1g ();
+//
+function exo1h() {
+    let inputValue1 = parseFloat(document.getElementById("input-1").value) || 1;
+    let inputValue2 = parseFloat(document.getElementById("input-2").value) || 1;
+    let inputValue3 = parseFloat(document.getElementById("input-3").value) || 1;
+    let inputValue4 = parseFloat(document.getElementById("input-4").value) || 1;
+    let resultBoxValue = document.getElementById("result-box-3");
+
+    let total = inputValue1 * inputValue2 * inputValue3 * inputValue4;
+
+    if (isNaN(total)) {
+        resultBoxValue.innerText = "1";
+    } else {
+        resultBoxValue.innerText = total;
+    }
+}
+exo1h();
+//
+function exo1i() {
+    let inputValue1 = parseFloat(document.getElementById("input-1").value);
+    let inputValue2 = parseFloat(document.getElementById("input-2").value);
+    let inputValue3 = parseFloat(document.getElementById("input-3").value);
+    let inputValue4 = parseFloat(document.getElementById("input-4").value);
+    let resultBoxValue2 = document.getElementById("result-box-4");
+    let total = 0;
+
+    if (inputValue1 > 0) {
+        total = total + inputValue1;
+    }
+    if (inputValue2 > 0) {
+        total = total + inputValue2;
+    }
+    if (inputValue3 > 0) {
+        total = total + inputValue3;
+    }
+    if (inputValue4 > 0) {
+        total = total + inputValue4;
+    }
+    if (total > 0) {
+        resultBoxValue2.innerText = total;
+    } else {
+        resultBoxValue2.innerText = "0";
+    }
+}
+exo1i();
+//
+function exo1j(){
+    let inputValue = document.getElementById("input-1").value
+    let resultBox = document.getElementById("result-box-1")
+    if (inputValue === "Lapin"){
+        resultBox.innerText = "Kuniklo"
+    }
+    else if (inputValue === "Lapinne"){
+        resultBox.innerText = "Kuniklino"
+    }
+    else if (inputValue === "Téléphone Cellulaire"){
+        resultBox.innerText = "Poŝtelefono"
+    }
+    else if (inputValue === "Ville"){
+        resultBox.innerText = "Urbo"
+    }
+    else{
+        resultBox.innerText = "mot non trouvé"
+    }
+}
+exo1j();
+//
+function exo1k() {
+    let inputValue1 = parseFloat(document.getElementById("input-1").value);
+    let resultBox1 = document.getElementById("result-box-1");
+    let inputValue2 = parseFloat(document.getElementById("input-2").value);
+    let resultBox2 = document.getElementById("result-box-2");
+    let inputValue3 = parseFloat(document.getElementById("input-3").value);
+    let resultBox3 = document.getElementById("result-box-3");
+    let inputValue4 = parseFloat(document.getElementById("input-4").value);
+    let resultBox4 = document.getElementById("result-box-4");
+
+    if (!isNaN(inputValue1)) {
+        if (inputValue1 >= 1000) {
+            resultBox1.innerText = "Est un grand nombre";
+        } else {
+            resultBox1.innerText = "Est un petit nombre";}}
+    else {
+        resultBox1.innerText = "N'est pas un nombre";
+    }
+
+    if (!isNaN(inputValue2)) {
+        if (inputValue2 >= 1000) {
+            resultBox2.innerText = "Est un grand nombre";
+        } else {
+            resultBox2.innerText = "Est un petit nombre";
+        }
+    } else {
+        resultBox2.innerText = "N'est pas un nombre";
+    }
+
+    if (!isNaN(inputValue3)) {
+        if (inputValue3 >= 1000) {
+            resultBox3.innerText = "Est un grand nombre";
+        } else {
+            resultBox3.innerText = "Est un petit nombre";
+        }
+    } else {
+        resultBox3.innerText = "N'est pas un nombre";
+    }
+
+    if (!isNaN(inputValue4)) {
+        if (inputValue4 >= 1000) {
+            resultBox4.innerText = "Est un grand nombre";
+        } else {
+            resultBox4.innerText = "Est un petit nombre";
+        }
+    } else {
+        resultBox4.innerText = "N'est pas un nombre";
+    }
+}
+exo1k();
+//
+function exo1l() {
+    let inputValue1 = parseFloat(document.getElementById("input-1").value);
+    let inputValue2 = parseFloat(document.getElementById("input-2").value);
+    let inputValue3 = parseFloat(document.getElementById("input-3").value);
+    let inputValue4 = parseFloat(document.getElementById("input-4").value);
+    let resultBox = document.getElementById("result-box-3");
+
+    if (!isNaN(inputValue1) && !isNaN(inputValue2) && !isNaN(inputValue3) && !isNaN(inputValue4)) {
+        if (inputValue1 <= inputValue2 && inputValue2 <= inputValue3 && inputValue3 <= inputValue4) {
+            resultBox.innerText = "les données sont ordonnées";
+        } else {
+            resultBox.innerText = "les données ne sont pas ordonnées";
+        }
+    } else {
+        resultBox.innerText = "Veuillez entrer des valeurs numériques dans tous les champs";
+    }
+}
